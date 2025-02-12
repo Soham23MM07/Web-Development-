@@ -1,0 +1,30 @@
+Window--> webpage
+
+The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page—in memory. 
+
+The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree. With them, you can change the document's structure, style, or content.
+
+The Browser Object Model (BOM) is the core of JavaScript on the web. The BOM provides you with objects that expose the web browser’s functionality.
+
+Section 1. Window
+Window – understand the window object.
+Alert – display an alert dialog.
+Confirm – display a modal dialog with a question.
+Prompt – prompt the user to input some text.
+setTimeout – set a timer and execute a callback function once the timer expires.
+setInterval – execute a callback function repeatedly with a fixed delay between each call.
+
+Section 2. Location
+Location – manipulate the location of a document via the location object.
+
+Section 3. Navigator
+Navigator – query the information and capabilities of the browser using the navigator object.
+
+Section 4. Screen
+Screen – get the information about the screen on which the browser is running by using the screen object.
+
+Section 5. History
+History – manage the web browser’s history stack with the history object.
+
+DOM MANIPULATION
+we are listening to the event and grabbing the element

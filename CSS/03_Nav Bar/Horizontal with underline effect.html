@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAV BAR</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #1a1a1a;
+        color: white;
+      }
+      nav-container {
+        margin-bottom: 40px;
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+      .nav1 {
+        border: 2px solid red;
+        background-color: aliceblue;
+        padding: 10px;
+      }
+      .nav1 ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        align-items: center;
+      }
+      .nav1 li {
+        display: inline;
+      }
+      .nav1 a {
+        font-size: large;
+        color: red;
+        text-decoration: none;
+        background-color: bisque;
+        padding: 5px 10px;
+        position: relative;
+      }
+      .nav1 .login {
+        padding: 8px;
+        background-color: aqua;
+        cursor: pointer;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: larger;
+      }
+      .login:hover {
+        background-color: antiquewhite;
+      }
+
+      .nav1 a::after {
+        content: "";
+        width: 100%;
+        height: 5px;
+        bottom: 0;
+        left: 0;
+        background-color: aqua;
+        position: absolute;
+
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+      }
+      .nav1 a:hover::after {
+        transform: scaleX(1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-container">
+      <h1>Variation 1:Horizontal with underline effect</h1>
+      <nav class="nav1">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><button class="login">Login</button></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>

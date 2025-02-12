@@ -1,0 +1,8 @@
+
+code file gets tokenized and converted into syntax tree
+
+then Just in time complier[JIT] comes into picture which is built in the node.js
+
+then code is first converted into byte code for fast translation ----> machine code
+
+machine code --> code execuetion

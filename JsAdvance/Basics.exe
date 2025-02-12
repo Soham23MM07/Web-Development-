@@ -1,0 +1,15 @@
+Asynchronous Behaviour of JS
+
+uncertain Behaviour of js sometimes it not follow the flow of the code 
+which means the program can execute other tasks while waiting for certain operations to complete.
+
+Having Pause 
+---> network calls
+---> time function
+---> write and read files
+---> user input
+
+ it doesn't handle the timing operations directly.First it go to call stack if stack is not able to handle it,It moves further. Instead, it delegates(act of offloading certain tasks) such tasks to the browser (or the Node.js environment in the case of server-side JavaScript).
+
+Event Loop ---> it manages the execution of Asynchronous Behaviour and also ensure they are handled efficently 
+

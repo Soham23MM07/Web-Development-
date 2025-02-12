@@ -1,0 +1,17 @@
+
+index.html is typically default file that web server looks for serving content on the browser
+
+ISP--internet service provider -- 4G 5G
+DNS-- domain name system  that converts humam readable names into internet protocal address 
+
+Address --> ISP ---> DNS ---> GLOBE --> ANOTHER SYSTEM 
+
+API -- Application programming interface it a interface btw frontend and backend --- json
+
+Frontend -- HTML CSS JS
+Backend -- JS DATABASE
+
+Database use to store data --- MongoDB,MySQL
+
+
+

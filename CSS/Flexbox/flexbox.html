@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      html,
+      body {
+        height: 100%;
+        background-color: #1a1a1a;
+      }
+      .content {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h2 {
+        color: rgb(1, 131, 244);
+        margin-bottom: 3rem;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: aquamarine;
+        height: 400px;
+        width: 350px;
+        border-radius: 10px;
+        flex-wrap: wrap;
+      }
+      .circle {
+        border: 2px solid;
+        border-radius: 100%;
+        background-color: black;
+        color: aliceblue;
+        font-size: x-large;
+        padding: 5px;
+      }
+      .circular {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <h2>FlexBox</h2>
+        <div class="circular">
+          <div class="circle">1</div>
+          <div class="circle">2</div>
+          <div class="circle">3</div>
+          <div class="circle">4</div>
+          <div class="circle">5</div>
+          <div class="circle">6</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

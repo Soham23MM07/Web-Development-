@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Different Grid</title>
+    <style>
+      .container {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+      }
+      h2 {
+        width: 97%;
+        text-align: center;
+        padding: 6px;
+        background-color: bisque;
+        border-radius: 2px;
+        border: 1px solid black;
+      }
+      .grid-container {
+        width: 100%;
+      }
+
+      .box {
+        background-color: rgb(74, 42, 218);
+        text-align: center;
+        padding: 4px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 2rem;
+      }
+      .box:nth-child(even) {
+        background-color: rgb(198, 43, 226);
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Basics Grid Layout</h2>
+      <div class="grid-container">
+        <div class="box box1">1</div>
+        <div class="box box2">1</div>
+        <div class="box box3">1</div>
+        <div class="box box4">1</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+      </div>
+    </div>
+  </body>
+</html>

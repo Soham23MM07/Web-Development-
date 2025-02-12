@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+}
+.container {
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+h1 {
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 20px;
+}
+input {
+  background-color: rgb(85, 85, 85);
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  /* color: black; */
+  caret-color: #1a1a1a;
+}
+input::placeholder {
+  color: black;
+}
+#Add-City {
+  padding: 10px;
+  background-color: rgb(94, 2, 151);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.hidden {
+  display: none;
+}
+#city-name {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+}
+#temperature {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+}
+#description {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+}
+#speed {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+}
+#humidity {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+}
+#error-message {
+  color: red;
+  text-align: center;
+  font-size: larger;
+  margin-top: 10px;
+}

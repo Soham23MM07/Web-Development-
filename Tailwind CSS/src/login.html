@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    *+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Bar</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-slate-900 flex flex-col min-h-screen justify-center items-center"
+  >
+    <div
+      class="bg-slate-700 p-8 rounded-lg w-full max-w-sm shadow-2xl shadow-gray-800"
+    >
+      <h2 class="text-white font-bold text-center mb-4 text-3xl">Login</h2>
+
+      <form>
+        <div>
+          <label class="block mb-2 text-cyan-50" for="">Email:</label>
+          <input
+            class="py-1 px-2 mb-2 focus:border-none w-full rounded-md bg-gray-500 text-white focus:outline-none focus:ring-2 focus:ring-blue-600"
+            type="email"
+            name="email"
+            placeholder="Email"
+          />
+        </div>
+
+        <div>
+          <label class="block mb-2 text-cyan-50" for="">Password:</label>
+          <input
+            class="py-1 px-2 mb-2 focus:border-none w-full rounded-md bg-gray-500 text-white focus:outline-none focus:ring-2 focus:ring-blue-600"
+            type="password"
+            name="Password"
+            placeholder="Password"
+          />
+        </div>
+
+        <button
+          class="bg-blue-700 w-full py-1.5 px-3 mt-2 text-cyan-50 rounded-lg hover:bg-blue-600 shadow-2xl shadow-gray-900"
+        >
+          <a href="http:">Login</a>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

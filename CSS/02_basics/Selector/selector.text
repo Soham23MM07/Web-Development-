@@ -1,0 +1,46 @@
+
+
+Universal Selector
+*{
+
+}
+
+Class Selector
+.classname{
+
+}
+
+Id Selector
+#idname{
+
+}
+
+Descendent Selector
+article p{    p are the Descendent of the article tag
+
+} 
+
+Child Selector
+div >p{
+
+}
+
+Adjacent Selector
+h1 + p{  it will select all the tags which has h1+p relation
+
+}
+
+Pseudo-Class Selector
+a:hover{
+
+}
+
+Pseudo-Element Selector
+p::first-letter{  it will select first letter of all paragraph
+
+}
+
+Grouping Selector
+h1,h2,h3{
+
+}
